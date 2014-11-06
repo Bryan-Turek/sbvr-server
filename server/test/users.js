@@ -1,6 +1,6 @@
 var server = require('../server');
 var dataSource = server.dataSources.sbvrdev;
-var User = server.models.user;
+var User = server.models.account;
 var user = [
       {
         name: 'Bryan Turek',
@@ -16,7 +16,7 @@ var sources = [
   'ACL',
   'RoleMapping',
   'AccessToken',
-  'user']
+  'account']
 
 dataSource.automigrate( sources, function(er) {
   if (er) throw er;

@@ -25,7 +25,7 @@
     "dataSource": "sbvrdev",
     "public": false
   },
-  "user": {
+  "account": {
     "dataSource": "sbvrdev",
     "public": true
   },
