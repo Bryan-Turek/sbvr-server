@@ -3,7 +3,7 @@ var dataSource = server.dataSources.db;
 var User = server.models.user;
 var users = [
       {
-        name: 'Bryan Turek'
+        name: 'Bryan Turek',
         email: 'turek.bryan@gmail.com',
         created: new Date(),
         modified: new Date()
