@@ -3,7 +3,7 @@
     "name": "db",
     "connector": "memory"
   },
-  "accountDB": {
+  "sbvrdev": {
     "name": "sbvrdev",
     "connector": "postgresql",
     "host": "127.0.0.1",
