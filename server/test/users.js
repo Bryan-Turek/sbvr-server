@@ -12,11 +12,13 @@ var user = [
 
 dataSource.automigrate(null,function(er) {
   if (er) throw er;
-  User.create(user, function(er, result) {
-    if (er) return;
-    console.log('Record created:', result);
-
-    console.log('done');
-    dataSource.disconnect();
-  });
+  // User.create(user, function(er, result) {
+  //   if (er) return;
+  //   console.log('Record created:', result);
+  //
+  //   console.log('done');
+  //   dataSource.disconnect();
+  // });
+  console.log('finished migration');
+  dataSource.disconnect();
 });

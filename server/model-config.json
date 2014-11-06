@@ -40,5 +40,13 @@
   "document": {
     "dataSource": "sbvrdev",
     "public": true
-  }
+  },
+  "block": {
+    "dataSource": "sbvrdev",
+    "public": true
+  },
+  "section": {
+    "dataSource": "sbvrdev",
+    "public": true
+  },
 }
