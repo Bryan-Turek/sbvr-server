@@ -1,5 +1,5 @@
 var server = require('../server');
-var dataSource = server.dataSources.db;
+var dataSource = server.dataSources.sbvrdev;
 var User = server.models.user;
 var user = [
       {
