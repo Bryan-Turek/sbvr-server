@@ -12,7 +12,6 @@ var user = [
 
 var sources = [
   'User',
-  'Application',
   'Role',
   'ACL',
   'RoleMapping',
