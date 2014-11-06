@@ -1,0 +1,28 @@
+{
+  "name": "document",
+  "plural": "documents",
+  "base": "PersistedModel",
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "revision": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "required": true
+    },
+    "abstract": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

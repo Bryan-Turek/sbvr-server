@@ -2,8 +2,17 @@
   "name": "user",
   "base": "User",
   "properties": {
-    "username": {
+    "name": {
       "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "created": {
+      "type": "date"
+    },
+    "modified": {
+      "type": "date"
     }
   },
   "validations": [],

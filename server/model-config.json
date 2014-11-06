@@ -36,5 +36,9 @@
   "team": {
     "dataSource": "db",
     "public": false
+  },
+  "document": {
+    "dataSource": "db",
+    "public": true
   }
 }
