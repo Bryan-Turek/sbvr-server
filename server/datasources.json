@@ -1,11 +1,15 @@
 {
   "db": {
-    "host": "localhost",
+    "name": "db",
+    "connector": "memory"
+  },
+  "accountDB": {
+    "name": "sbvrdev",
+    "connector": "postgresql",
+    "host": "127.0.0.1",
     "port": 5432,
     "database": "sbvr_dev",
     "username": "sbvradmin",
-    "password": "sbvrpassword",
-    "name": "db",
-    "connector": "postgresql"
+    "password": "sbvrpassword"
   }
 }

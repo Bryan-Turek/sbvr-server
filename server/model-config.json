@@ -26,19 +26,19 @@
     "public": false
   },
   "user": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": true
   },
   "project": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": true
   },
   "team": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": false
   },
   "document": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": true
   }
 }
