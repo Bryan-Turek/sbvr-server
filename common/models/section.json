@@ -1,6 +1,6 @@
 {
-  "name": "document",
-  "plural": "documents",
+  "name": "section",
+  "plural": "sections",
   "base": "PersistedModel",
   "properties": {
     "title": {
@@ -8,26 +8,15 @@
       "required": true
     },
     "revision": {
-      "type": "string"
-    },
-    "source": {
       "type": "string",
       "required": true
     },
-    "abstract": {
-      "type": "string"
-    },
-    "authority": {
+    "source": {
       "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "blocks": {
-      "type": "hasAndBelongsToMany",
-      "model": "block"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": []
 }

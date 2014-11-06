@@ -1,23 +1,21 @@
 {
-  "name": "document",
-  "plural": "documents",
+  "name": "block",
+  "plural": "blocks",
   "base": "PersistedModel",
   "properties": {
-    "title": {
+    "kind": {
       "type": "string",
       "required": true
     },
-    "revision": {
-      "type": "string"
+    "shortTitle": {
+      "type": "string",
+      "required": true
+    },
+    "longTitle": {
+      "type": "string",
+      "required": true
     },
     "source": {
-      "type": "string",
-      "required": true
-    },
-    "abstract": {
-      "type": "string"
-    },
-    "authority": {
       "type": "string"
     }
   },
@@ -26,6 +24,10 @@
     "blocks": {
       "type": "hasAndBelongsToMany",
       "model": "block"
+    },
+    "sections": {
+      "type": "hasAndBelongsToMany",
+      "model": "section"
     }
   },
   "acls": [],

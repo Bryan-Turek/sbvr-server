@@ -26,21 +26,12 @@
       "type": "hasMany",
       "model": "team",
       "foreignKey": "ownerId"
+    },
+    "documents": {
+      "type": "hasAndBelongsToMany",
+      "model": "document"
     }
   },
-  "acls": [
-    {
-      "accessType": "*",
-      "permission": "ALLOW",
-      "principalType": "ROLE",
-      "principalId": "$everyone"
-    },
-    {
-      "accessType": "*",
-      "permission": "ALLOW",
-      "principalType": "ROLE",
-      "principalId": "$everyone"
-    }
-  ],
+  "acls": [],
   "methods": []
 }
