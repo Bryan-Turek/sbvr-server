@@ -6,23 +6,23 @@
     ]
   },
   "User": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "sbvrdev",
     "public": false
   },
   "user": {
