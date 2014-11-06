@@ -20,11 +20,11 @@ var sources = [
 
 dataSource.automigrate( sources, function(er) {
   if (er) throw er;
-  User.create(user, function(er, result) {
-    if (er) return;
-    console.log('Record created:', result);
-
-    console.log('done');
-    dataSource.disconnect();
-  });
+  // User.create(user, function(er, result) {
+  //   if (er) return;
+  //   console.log('Record created:', result);
+  //
+  //   console.log('done');
+  //   dataSource.disconnect();
+  // });
 });
