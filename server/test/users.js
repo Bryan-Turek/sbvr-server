@@ -10,15 +10,7 @@ var user = [
       }
     ];
 
-var sources = [
-  'User',
-  'Role',
-  'ACL',
-  'RoleMapping',
-  'AccessToken',
-  'account']
-
-dataSource.automigrate( sources, function(er) {
+dataSource.automigrate(null,function(er) {
   if (er) throw er;
   // User.create(user, function(er, result) {
   //   if (er) return;
