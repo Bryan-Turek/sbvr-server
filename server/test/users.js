@@ -5,18 +5,21 @@ var user = [
       {
         name: 'Bryan Turek',
         email: 'turek.bryan@gmail.com',
+        password: 'testing',
         created: new Date(),
         modified: new Date()
       },
       {
         name: 'Ian Stavros',
         email: 'ianstavros@gmail.com',
+        password: 'testing',
         created: new Date(),
         modified: new Date()
       },
       {
         name: 'Nick Stavros',
         email: 'nick@drstavros.com',
+        password: 'testing',
         created: new Date(),
         modified: new Date()
       }

@@ -11,19 +11,19 @@
   },
   "AccessToken": {
     "dataSource": "sbvrdev",
-    "public": false
+    "public": true
   },
   "ACL": {
     "dataSource": "sbvrdev",
-    "public": false
+    "public": true
   },
   "RoleMapping": {
     "dataSource": "sbvrdev",
-    "public": false
+    "public": true
   },
   "Role": {
     "dataSource": "sbvrdev",
-    "public": false
+    "public": true
   },
   "account": {
     "dataSource": "sbvrdev",

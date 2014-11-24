@@ -17,11 +17,6 @@
   },
   "validations": [],
   "relations": {
-    "projects": {
-      "type": "hasMany",
-      "model": "project",
-      "foreignKey": "ownerId"
-    },
     "teams": {
       "type": "hasMany",
       "model": "team",
