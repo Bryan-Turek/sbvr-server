@@ -20,6 +20,10 @@
     "blocks": {
       "type": "hasAndBelongsToMany",
       "model": "block"
+    },
+    "sections": {
+      "type": "hasMany",
+      "model": "section"
     }
   },
   "acls": [],
