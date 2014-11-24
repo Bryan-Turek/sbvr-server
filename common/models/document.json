@@ -16,9 +16,6 @@
     },
     "abstract": {
       "type": "string"
-    },
-    "authority": {
-      "type": "string"
     }
   },
   "validations": [],

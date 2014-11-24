@@ -21,4 +21,8 @@ dataSource.automigrate(null,function(er) {
   // });
   console.log('finished migration');
   dataSource.disconnect();
+
+  process.nextTick(function() {
+    process.exit();
+  });
 });

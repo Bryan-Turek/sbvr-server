@@ -3,15 +3,11 @@
   "plural": "blocks",
   "base": "PersistedModel",
   "properties": {
-    "kind": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "shortTitle": {
-      "type": "string",
-      "required": true
-    },
-    "longTitle": {
+    "revision": {
       "type": "string",
       "required": true
     },
@@ -24,10 +20,6 @@
     "blocks": {
       "type": "hasAndBelongsToMany",
       "model": "block"
-    },
-    "sections": {
-      "type": "hasAndBelongsToMany",
-      "model": "section"
     }
   },
   "acls": [],
