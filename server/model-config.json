@@ -29,10 +29,6 @@
     "dataSource": "sbvrdev",
     "public": true
   },
-  "team": {
-    "dataSource": "sbvrdev",
-    "public": false
-  },
   "document": {
     "dataSource": "sbvrdev",
     "public": true

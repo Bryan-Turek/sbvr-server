@@ -7,6 +7,18 @@ var user = [
         email: 'turek.bryan@gmail.com',
         created: new Date(),
         modified: new Date()
+      },
+      {
+        name: 'Ian Stavros',
+        email: 'ianstavros@gmail.com',
+        created: new Date(),
+        modified: new Date()
+      },
+      {
+        name: 'Nick Stavros',
+        email: 'nick@drstavros.com',
+        created: new Date(),
+        modified: new Date()
       }
     ];
 
