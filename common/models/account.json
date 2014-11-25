@@ -6,13 +6,16 @@
       "type": "string"
     },
     "email": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "created": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "modified": {
-      "type": "date"
+      "type": "date",
+      "required": true
     }
   },
   "validations": [],

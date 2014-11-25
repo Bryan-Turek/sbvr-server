@@ -51,7 +51,7 @@ module.exports = function(app) {
           title: 'Administrative Committee of the Federal Register',
           source: '/CFR Title'
         }, function(err, section) {
-          console.log(err);
+          // console.log(err);
           if(err) return debug(err);
           debug(section)
 

@@ -13,6 +13,14 @@
     },
     "description": {
       "type": "string"
+    },
+    "created": {
+      "type": "date",
+      "required": true
+    },
+    "modified": {
+      "type": "date",
+      "required": true
     }
   },
   "validations": [],
