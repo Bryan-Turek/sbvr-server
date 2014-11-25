@@ -17,11 +17,6 @@
   },
   "validations": [],
   "relations": {
-    "teams": {
-      "type": "hasMany",
-      "model": "team",
-      "foreignKey": "ownerId"
-    },
     "documents": {
       "type": "hasAndBelongsToMany",
       "model": "document"

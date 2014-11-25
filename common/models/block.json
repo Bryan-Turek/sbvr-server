@@ -22,9 +22,8 @@
       "model": "block"
     },
     "sections": {
-      "type": "hasMany",
-      "model": "section",
-      "foreignKey": "blockid"
+      "type": "hasAndBelongsToMany",
+      "model": "section"
     }
   },
   "acls": [],

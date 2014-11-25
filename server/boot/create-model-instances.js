@@ -58,38 +58,6 @@ module.exports = function(app) {
         });
       });
     });
-    // users[0].projects.create({
-    //   name: 'project1',
-    //   balance: 100
-    // }, function(err, project) {
-    //   if (err) return debug(err);
-    //   debug(project);
-    //   //add team members
-    //   Team.create([
-    //     {ownerId: project.ownerId, memberId: users[0].id},
-    //     {ownerId: project.ownerId, memberId: users[1].id}
-    //   ], function(err, team) {
-    //     if (err) return debug(err);
-    //     debug(team);
-    //   });
-    // });
-
-    //create project 2 and make jane the owner
-    // users[1].projects.create({
-    //   name: 'project2',
-    //   balance: 100
-    // }, function(err, project) {
-    //   if (err) return debug(err);
-    //   debug(project);
-    //   //add team members
-    //   Team.create({
-    //     ownerId: project.ownerId,
-    //     memberId: users[1].id
-    //   }, function(err, team) {
-    //     if (err) return debug(err);
-    //     debug(team);
-    //   });
-    // });
 
     //create the admin role
     Role.create({

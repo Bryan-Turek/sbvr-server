@@ -9,7 +9,7 @@
     },
     "revision": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "source": {
       "type": "string"
