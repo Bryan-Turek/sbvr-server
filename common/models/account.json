@@ -30,7 +30,7 @@
       "principalType": "ROLE",
       "principalId": "$owner",
       "permission": "ALLOW",
-      "property": "__get_documents"
+      "property": "__get__documents"
     }
   ],
   "methods": []
