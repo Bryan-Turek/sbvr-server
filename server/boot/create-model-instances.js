@@ -40,6 +40,12 @@ module.exports = function(app) {
       if(err) return debug(err);
       debug(document);
 
+      users.forEach(function(user) {
+        user.documents.add(document, function(err){
+          if(err) return debug(err);
+        });
+      });
+
       document.blocks.create({
         title: 'General Provisions',
         source: '/CFR Title'
