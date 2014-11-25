@@ -46,8 +46,7 @@ module.exports = function(app) {
       }, function(err, block) {
         if(err) return debug(err);
         debug(block);
-
-        console.log(block);
+        
         block.sections.create({
           title: 'Administrative Committee of the Federal Register',
           source: '/CFR Title'
@@ -55,7 +54,7 @@ module.exports = function(app) {
           if(err) return debug(err);
           debug(section)
 
-          console.log(section);
+          console.log(err);
         });
       });
     });
