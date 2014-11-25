@@ -23,7 +23,8 @@
     },
     "sections": {
       "type": "hasMany",
-      "model": "section"
+      "model": "section",
+      "foreignKey": "blockid"
     }
   },
   "acls": [],
