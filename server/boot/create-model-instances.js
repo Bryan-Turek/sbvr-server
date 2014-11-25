@@ -39,6 +39,22 @@ module.exports = function(app) {
     }, function(err, document) {
       if(err) return debug(err);
       debug(document);
+
+      document.blocks.create({
+        title: 'General Provisions',
+        source: '/CFR Title'
+      }, function(err, block) {
+        if(err) return debug(err);
+        debug(block);
+
+        block.sections.create({
+          title: 'Administrative Committee of the Federal Register',
+          source: '/CFR Title'
+        }, function(err, section) {
+          if(err) return debug(err);
+          debug(section)
+        });
+      });
     });
     // users[0].projects.create({
     //   name: 'project1',
