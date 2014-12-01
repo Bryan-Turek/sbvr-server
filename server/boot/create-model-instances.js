@@ -27,6 +27,13 @@ module.exports = function(app) {
       password: 'testing',
       created: new Date(),
       modified: new Date()
+    },
+    {
+      name: 'Gianpiero Napoli',
+      email: 'gianpiero@rti.com',
+      password: 'testing',
+      created: new Date(),
+      modified: new Date()
     }
   ], function(err, users) {
     if (err) return debug('%j', err);
